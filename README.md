@@ -28,10 +28,6 @@ GROUP BY i.instructor_id, i.name;
 -- 4. Query the view
 SELECT * FROM InstructorWorkload;
 
-Outcome:
-Learned how to create, query, and drop views
-Understood how views can simplify reporting and restrict sensitive data
-Gained confidence in using views for reusable SQL logic
 -- 5. Drop a view
 DROP VIEW InstructorWorkload;
 
